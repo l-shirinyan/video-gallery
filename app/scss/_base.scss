@@ -2,7 +2,6 @@ $olive: #808000;
 $body-text: #333333;
 
 body{
-  padding-top:5%;
 	background-image: url("https://www.xmple.com/wallpaper/gradient-white-grey-linear-1920x1080-c2-808080-ffe4e1-a-285-f-14.svg");
 	background-repeat: no-repeat;
   background-attachment: fixed;
@@ -103,4 +102,14 @@ img {
 }
 .last-a{
   margin-left: 18%;
+}
+.padTop{
+  padding-top: 5%;
+}
+.customTitle{
+  text-align:center;
+  color: #65666B;
+}
+.padBottom{
+  padding-bottom: 5%;
 }
