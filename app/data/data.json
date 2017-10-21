@@ -1,0 +1,75 @@
+{
+    "albums1": {
+            "title": "Movies",
+            "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+            "file": [{
+                "title": "Action",
+                "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+                "link": "https://www.youtube.com/embed/WzKcZl_w4tc"
+            },{
+                "title": "Horror",
+                "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+                "link": "https://www.youtube.com/embed/S-1QgOMQ-ls"
+            },{
+                "title": "Comedy",
+                "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+                "link": "https://www.youtube.com/embed/hOqVRwGVUkA"
+            }],
+            "image":"http://images6.fanpop.com/image/photos/35000000/The-main-actors-without-the-cardinal-django-unchained-35035121-500-300.jpg"
+            },
+    "albums2":{
+            "title": "Music",
+            "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+            "file": [{
+                "title": "Regie",
+                "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+                "link": "https://www.youtube.com/embed/-JhwxTen6yA"
+            },{
+                "title": "Hip-hop",
+                "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+                "link": "https://www.youtube.com/embed/_CL6n0FJZpk"
+            },{
+                "title": "Rock",
+                "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+                "link": "https://www.youtube.com/embed/kUUn88vmUnE"
+            }],
+            "image":"http://www.noelkemusic.com/wp-content/uploads/2015/02/Guitar-strings-hands-500x300.jpg"
+            },
+    "albums3":{
+        "title": "Games",
+        "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+        "file": [{
+            "title": "Rainbow Six Siege 6",
+            "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+            "link": "https://www.youtube.com/embed/KlbLLRdg9u8"
+        },{
+            "title": "Overrwatch",
+            "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+            "link": "https://www.youtube.com/embed/FqnKB22pOC0"
+        },{
+            "title": "PUBG",
+            "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+            "link": "https://www.youtube.com/embed/XhrD5IDc5OA"
+        }],
+        "image":"http://cool-wallpapers.net/wp-content/uploads/2017/09/games-wallpaper-500x300.jpg"
+    },
+    "albums4":{
+        "title": "Sports",
+        "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+        "file": [{
+            "title": "Tenis",
+            "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+            "link": "https://www.youtube.com/embed/WAfF7PbkZB8"
+        },{
+            "title": "Box",
+            "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+            "link": "https://www.youtube.com/embed/Fp5A8CXyS_E"
+        },{
+            "title": "Football",
+            "description": "Lorem ipsum dolor sit amet Et quas provident nulla suscipit velit, odio dolores.",
+            "link": "https://www.youtube.com/embed/RY2OEpAf5oY"
+        }],
+        "image":"http://alltimelists.com/wp-content/uploads/2015/11/fc-barcelona-500x300.jpg"
+    }
+    
+}

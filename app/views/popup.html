@@ -1,0 +1,10 @@
+<div class="popupBG"> 
+	<div class="h2"><h2>Fill the form to add video</h2></div>
+ 	<div class="title"><input type="text"  ng-model="title" placeholder="Title"/></div>
+   	<div class="description"><input type="text"  ng-model="description" placeholder="Description" /></div>
+   	<div ng-if="error" ng-model="error" class="alert alert-danger errorMessage">
+	  <strong>{{error}}</strong>
+	</div>
+   	<div class="link"><input type="text"  ng-model="link" placeholder="link"/></div>
+   	<div class="addButton"><input type="submit" name="login" class="addVideo login loginmodal-submit" value="Submit" ng-click="addVideo(title,description,link)"></div>
+</div>

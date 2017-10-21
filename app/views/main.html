@@ -1,0 +1,15 @@
+<div class="container" id="tourpackages-carousel" >
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" ng-repeat="album in albums">
+          <div class="thumbnail">
+            <img ng-src="{{album.image}}" alt="" style="width: 100%">
+              <div class="whiteText caption">
+                <h4>{{album.title}}</h4>
+                <p>{{album.description}}</p>
+                <p class="not"><a href="#" class="btn btn-info btn-xs first-a" role="button" ui-sref="albumDetail" ng-click="showDetails(album.file,album.title)">Album Details</a>
+                 <a href="#" class="btn btn-info btn-xs last-a" role="button" ng-click="popupShow(album.title)">Add Video</a></p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,119 @@
+$olive: #808000;
+$body-text: #333333;
+
+body{
+	color: $body-text;
+	margin: 0;
+	padding: 0;
+	background-image: url("https://www.xmple.com/wallpaper/gradient-white-grey-linear-1920x1080-c2-808080-ffe4e1-a-285-f-14.svg");
+	background-repeat: no repeat;
+}
+
+img {
+  height: auto; 
+  max-width: 100%; 
+}
+
+#header, #content, .page{
+	overflow: hidden;
+}
+
+.page{
+	background: $olive;
+	padding: 0 3%;
+}
+.maxHeight{
+	maxHeight: 200px;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+    background-image: url("https://www.xmple.com/wallpaper/gradient-white-grey-linear-1920x1080-c2-808080-ffe4e1-a-285-f-14.svg");
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 4em 4em;
+    position: relative;
+    width: 600px;
+}
+.title, .description, .link, .addButton{
+    padding: 1em;
+}
+.title input, .description input, .link input{
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+.addVideo{
+    width: 100%;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+.loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  border-radius: .25rem;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+}
+.h2{
+	text-align: center;
+  padding-bottom: 2%;
+  color: #17a2b8;
+}
+.backIcon, .backText{
+  color: #17a2b8;
+  font-weight: bold;
+  font-size: 20px;
+}
+.backText{
+  margin-left: 1%;
+}
+.back{
+  margin-left: 2%;
+  margin-top: 1%;
+  padding-bottom: 3%;
+}
+.backIcon, .backText, .loginmodal-submit{
+  cursor:pointer;
+}
+.whiteText h4{
+  color: #555555;
+  font-weight: 700;
+  margin-top: 5%;
+}
+.whiteText p:not(.not){
+  color: #65666B;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 2%;
+}
+.not{
+  padding-bottom: 8%;
+  padding-top: 3%;
+}
+.first-a{
+  margin-left: 20%;
+}
+.last-a{
+  margin-left: 18%;
+}
