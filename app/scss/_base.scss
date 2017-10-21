@@ -2,11 +2,10 @@ $olive: #808000;
 $body-text: #333333;
 
 body{
-	color: $body-text;
-	margin: 0;
-	padding: 0;
+  padding-top:5%;
 	background-image: url("https://www.xmple.com/wallpaper/gradient-white-grey-linear-1920x1080-c2-808080-ffe4e1-a-285-f-14.svg");
-	background-repeat: no repeat;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 img {
@@ -116,4 +115,7 @@ img {
 }
 .last-a{
   margin-left: 18%;
+}
+.customAlbum:nth-child(odd){
+  padding-right:6%;
 }
