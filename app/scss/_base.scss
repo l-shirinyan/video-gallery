@@ -13,18 +13,6 @@ img {
   max-width: 100%; 
 }
 
-#header, #content, .page{
-	overflow: hidden;
-}
-
-.page{
-	background: $olive;
-	padding: 0 3%;
-}
-.maxHeight{
-	maxHeight: 200px;
-}
-
 .ngdialog.ngdialog-theme-default .ngdialog-content {
     background-image: url("https://www.xmple.com/wallpaper/gradient-white-grey-linear-1920x1080-c2-808080-ffe4e1-a-285-f-14.svg");
     border-radius: 5px;
