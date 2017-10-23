@@ -9,11 +9,11 @@ export default function albumMainController ($scope,$rootScope,$http,albumDataSe
 	}
     $http({
 	  method: 'GET',
-	  url: '/app/data/data.json'
+	  url: '/app/data.json'
 	}).then(function successCallback(response) {
 	    $scope.albums = response.data;
 	  }, function errorCallback(response) {
-	    
+	    console.log(response.status)
 	  });
 	$scope.showDetails = function (content,title) {
 		var data = [];
@@ -32,7 +32,6 @@ export default function albumMainController ($scope,$rootScope,$http,albumDataSe
 			ngDialog.close();
 		}
 	}
-console.log($rootScope.data)
 	function validateYouTubeUrl(link){
 	    var url = link
 	        if (url != undefined) {

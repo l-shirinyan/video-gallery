@@ -7,14 +7,16 @@ module.exports = new WebpackConfig().extend('./webpack.config.common.babel.js').
     pathinfo: true,
     filename: "[name].entry.js"
   },
-  debug: true,
   devtool: '#eval',
   entry: {
     bundle: path.join(__dirname,'/app/app.module.js'),
     vendor: ['angular','@uirouter/angularjs']
   },
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.js')
+    new webpack.optimize.CommonsChunkPlugin({ name: 'vendor', filename: 'vendor.bundle.js' }),
+    new webpack.LoaderOptionsPlugin({
+       debug: true
+     })
   ]
 });
 

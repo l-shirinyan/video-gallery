@@ -14,16 +14,16 @@ module.exports = new WebpackConfig().merge({
   module: {
     loaders: [{
         test: /\.scss$/,
-        loader: 'style!css?sourceMap!sass?sourceMap&sourceComments'
+        loader: 'style-loader!css-loader?sourceMap!sass-loader?sourceMap&sourceComments'
     }, {
-        test: /\.(eot|woff|woff2|ttf|png|svg|jpg)$/,
-        loader: 'url-loader?limit=300'
+        test: /\.json$/,
+        loader: 'json-loader'
     }, {
         test: /\.html$/,
-        loader: 'ng-cache?prefix=[dir]/[dir]'
+        loader: 'ng-cache-loader?prefix=[dir]/[dir]'
     }, {
         test: /\.js$/,
-        loader: 'babel?presets[]=es2015&plugins[]=angularjs-annotate',
+        loader: 'babel-loader?presets[]=env&plugins[]=angularjs-annotate',
         exclude: /node_modules/
     }]
   },
