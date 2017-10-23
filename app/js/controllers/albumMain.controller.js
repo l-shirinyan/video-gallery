@@ -32,7 +32,7 @@ export default function albumMainController ($scope,$rootScope,$http,albumDataSe
 			ngDialog.close();
 		}
 	}
-
+console.log($rootScope.data)
 	function validateYouTubeUrl(link){
 	    var url = link
 	        if (url != undefined) {

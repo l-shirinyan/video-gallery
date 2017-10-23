@@ -4,7 +4,7 @@ Make sure you have Node version >= 6.0 and NPM >= 3
 
 ```
 # change directory to repo
-cd video-gallary
+cd video-gallery
 
 # install the repo with npm
 npm install

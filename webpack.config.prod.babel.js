@@ -8,6 +8,10 @@ module.exports = new WebpackConfig().extend('./webpack.config.common.babel.js').
     new webpack.optimize.OccurrenceOrderPlugin(true),
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
-    new webpack.optimize.UglifyJsPlugin()
+    new webpack.optimize.UglifyJsPlugin({
+							    compress: {
+							        warnings: false
+							    }
+							})
   ]
 })

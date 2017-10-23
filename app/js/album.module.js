@@ -1,4 +1,3 @@
-import angular from 'angular';
 import routing from './album.route';
 import albumMainController from './controllers/albumMain.controller.js';
 import albumDetailController from './controllers/albumDetail.controller.js';
